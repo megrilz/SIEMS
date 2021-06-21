@@ -4,9 +4,8 @@
 Design mitigation strategies to protect VSI from future attacks.
 You are tasked with using your findings from the Master of SOC activity to answer questions about mitigation strategies.
 System Requirements
-I usED the Splunk app located in the Ubuntu VM.
+I used the Splunk app located in the Ubuntu VM.
 Logs
-Use the same log files you used during the Master of SOC activity:
 Windows Logs
 Windows Attack Logs
 Apache Webserver Logs
@@ -47,8 +46,8 @@ Limit forgotten password policy, must answer security questions first or pass a 
 # Part 2: Apache Webserver Attack:
 # Question 1
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
-Provide a "plain english" description of the rule.
-For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
+
+
 Block all incoming HTTP traffic where the source IP comes from the city of Paris.
 Provide a screen shot of the geographic map that justifies why you created this rule.
 
@@ -63,8 +62,8 @@ VSI has insider information that JobeCorp will launch the same webserver attack 
 
 
 What other rules can you create to protect VSI from attacks against your webserver?
-Conceive of two more rules in "plain english".
-Hint: Look for other fields that indicate the attacker.
+
+
 Use UBA and determine the usual IPs and geographic locations each user connects from to follow those trends. Any outliers should not be given access. Create alerts from unusual activity like log in hours. 
 
 
